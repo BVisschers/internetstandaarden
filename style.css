@@ -3,11 +3,13 @@
     padding: 0px;
 }
 
+
 header{
 background-color: black;
 color: white;
 flex-wrap: wrap;
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial, Helvetica, sans-serif;
+width: 100%;
 }
 
 li{
@@ -25,15 +27,6 @@ ul li a {
     text-decoration: none;
   }
 
-
-article {
-  background-color: #d5d1cd ;
-  padding-top: 4%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 3%;
-}
-
   
 a:link{
     color: white
@@ -48,6 +41,90 @@ a:hover{
 }
 
 
+
+h1{
+    text-align: center;
+    color: black;
+    background-color: #efefef;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: black
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    line-height: 1.4em;
+}
+
+section.drie_rij{
+    display: flex;
+    width: 100vw;
+}
+
+section article{
+width: 33%
+}
+
+section article img{
+    width: 100%;
+}
+
+section.banner img{
+    width: 100%;
+    height: auto;
+}
+
+article {
+    background-color: #efefef ;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+
+article p a:link{
+    color:#c1b5aa;
+}
+
+article p a:hover{
+    color:black;
+}
+
+article.quote{
+    background-color: black;
+    color: white;
+    text-align: center; 
+
+}
+
+article.kop_inspiratie{
+    background-color: #c1b5aa;
+}
+
+article.trend_inspiratie{
+background-color: #c1b5aa;
+}
+
+article.vintagehome {
+    background-color: #c1b5aa;
+}
+
+.quote-upcyclen{
+    background-color: #c1b5aa;
+}
+
 div{ 
     display: flex;
     justify-content: space-evenly;
@@ -55,36 +132,83 @@ div{
     padding: 10px;
 }
 
+.afbeeldhome img{
+    width: 320px;
+    border: 4px solid black;
+}
+
+.winkel img{
+    width: 320px;
+    border: 4px solid #efefef;
+}
+
 .winkel{
     margin: 20px;
     padding: 10px;
     align-items: center;
+    text-align: left;
+    
+}
+
+.winkel p{
+    padding-left: 30px;
 }
 
 
-h1{
-    color: black
+video{
+    padding-right: 20px;
+}
+
+.inspiratie{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #efefef;
+    margin: 20px;
+    padding: 10px;
+    align-items: end;
+    text-align: left;  
+}
+
+.inspiratie p{
+    padding-bottom: 5em;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.inspiratie img{
+    width: 320px;
+}
+
+.upcyclen{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #efefef;
+    margin: 20px;
+    padding: 10px;
+    align-items: end;
+    text-align: left;  
 }
 
 
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
+.upcyclen p{
+    padding-bottom: 5em;
+    padding-left: 10px;
+    padding-right: 50px;
 }
 
-h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.upcyclen video{
+    width: 320px;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 1%;
-}
+
 
 footer{
+
     background-color: black;
     color: white;
     padding-top: 1%;
     padding-bottom: 4%;
+    text-align: center;
 }

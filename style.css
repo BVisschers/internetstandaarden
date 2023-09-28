@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0em;
 }
 
 
@@ -40,36 +40,22 @@ a:hover{
     color: #dddddd;
 }
 
+h1,h2,h3{
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
 h1{
-    text-align: center;
-    color: black;
-    background-color: #efefef;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    background-color: #efefef;  
 }
 
-
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    color: black
-}
-
-h3{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
 
 p{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 1%;
     line-height: 1.4em;
-}
-
-section.drie_rij{
-    display: flex;
-    width: 100vw;
 }
 
 section article{
@@ -80,9 +66,55 @@ section article img{
     width: 100%;
 }
 
+section.drie_rij{
+    display: flex;
+    width: 100vw;
+}
+
+section.drie_rij img{
+    border: 0.3em solid black;
+
+}
+
+section.afbeeldhome img{
+    width: 320px;
+    border: 0.3em solid black;
+}
+
 section.banner img{
     width: 100%;
     height: auto;
+}
+
+section.afbeeldhome{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em;
+    padding: 0.5em;
+}
+section.upcyclen img{
+    width: 320px;
+}
+
+section.upcyclen{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #efefef;
+    margin: 20px;
+    padding: 10px;
+    align-items: end;
+    text-align: left;  
+}
+
+section.upcyclen p{
+    padding-bottom: 5em;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+section.upcyclen video{
+    width: 320px;
 }
 
 article {
@@ -95,13 +127,15 @@ article {
   }
 
 article p a:link{
-    color:#c1b5aa;
+    color:rgb(159, 134, 99);
 }
 
 article p a:hover{
     color:black;
 }
-
+article.quote h2{
+    color: white;
+}
 article.quote{
     background-color: black;
     color: white;
@@ -121,7 +155,7 @@ article.vintagehome {
     background-color: #c1b5aa;
 }
 
-.quote-upcyclen{
+article.quote-upcyclen{
     background-color: #c1b5aa;
 }
 
@@ -132,77 +166,56 @@ div{
     padding: 10px;
 }
 
-.afbeeldhome img{
-    width: 320px;
-    border: 4px solid black;
-}
 
 .winkel img{
     width: 320px;
     border: 4px solid #efefef;
 }
 
-.winkel{
+section.winkel{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
     margin: 20px;
     padding: 10px;
     align-items: center;
     text-align: left;
-    
 }
 
-.winkel p{
-    padding-left: 30px;
+section.winkel p{
+    padding-left: 3em;
 }
-
 
 video{
     padding-right: 20px;
 }
 
-.inspiratie{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
+
+
+button{
+    font-size: 1em;
+    background-color:#c1b5aa;
     color: #efefef;
-    margin: 20px;
-    padding: 10px;
-    align-items: end;
-    text-align: left;  
+    border: none;
+    padding: 0.5em;
+    transition: all 450ms ease-out;
+    display: block;
+    align-items: center;
 }
 
-.inspiratie p{
-    padding-bottom: 5em;
-    padding-left: 30px;
-    padding-right: 50px;
+button:hover{
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+    transform: translateY(-0.5em)
 }
 
-.inspiratie img{
-    width: 320px;
-}
-
-.upcyclen{
+.button{
     display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    color: #efefef;
-    margin: 20px;
-    padding: 10px;
-    align-items: end;
-    text-align: left;  
+    justify-content: center;
+    padding-top: 1.5em;
 }
-
-
-.upcyclen p{
-    padding-bottom: 5em;
-    padding-left: 10px;
-    padding-right: 50px;
-}
-
-.upcyclen video{
-    width: 320px;
-}
-
-
 
 footer{
 

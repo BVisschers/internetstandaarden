@@ -220,9 +220,19 @@ video {
     padding-right: 1.5em;
 }
 
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: black;
+    }
+  }
 
-}
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
 
 footer {
     background-color: black;

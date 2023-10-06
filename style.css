@@ -3,13 +3,12 @@
     padding: 0em;
 }
 
-
 header{
-background-color: black;
-color: white;
-flex-wrap: wrap;
-font-family:Arial, Helvetica, sans-serif;
-width: 100%;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 li{
@@ -22,11 +21,10 @@ ul{
     padding: 2em;
 }
 
-ul li a {
+ul li a{
     color: white;
     text-decoration: none;
-  }
-
+}
   
 a:link{
     color: white
@@ -38,6 +36,7 @@ a:visited{
 
 a:hover{
     color: #dddddd;
+    text-decoration: underline;
 }
 
 h1,h2,h3{
@@ -46,11 +45,9 @@ h1,h2,h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-
 h1{
     background-color: #efefef;  
 }
-
 
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +56,7 @@ p{
 }
 
 section article{
-width: 33%
+    width: 33%
 }
 
 section article img{
@@ -73,11 +70,19 @@ section.drie_rij{
 
 section.drie_rij img{
     border: 0.3em solid black;
+    margin-bottom: 1.5em;
+}
 
+section.drie_rij h2,h3,p{
+    margin-bottom: 0.5em;
+}
+
+section.drie_rij a{
+    margin-bottom: 1em;
 }
 
 section.afbeeldhome img{
-    width: 320px;
+    width: 18em;
     border: 0.3em solid black;
 }
 
@@ -92,8 +97,9 @@ section.afbeeldhome{
     margin: 2em;
     padding: 0.5em;
 }
+
 section.upcyclen img{
-    width: 320px;
+    width: 20em;
 }
 
 section.upcyclen{
@@ -101,41 +107,87 @@ section.upcyclen{
     justify-content: space-evenly;
     background-color: black;
     color: #efefef;
-    margin: 20px;
-    padding: 10px;
+    margin: 1em;
+    padding: 0.5em;
     align-items: end;
     text-align: left;  
 }
 
 section.upcyclen p{
     padding-bottom: 5em;
-    padding-left: 10px;
-    padding-right: 50px;
+    padding-left: 3em;
+    padding-right: 5em;
 }
 
 section.upcyclen video{
-    width: 320px;
+    width: 20em;
 }
 
-article {
+section.link a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color:#c1b5aa;
+    color: #efefef;
+    border: none;
+    padding: 0.5em;
+    transition: all 450ms ease-out;
+    display: block;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+section.link a:hover{
+    border: 0.2em solid black;
+    color: black;
+    background: transparent;
+    transform: translateY(-0.5em)
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+}
+
+section.link_twee a:hover{
+    color: white;
+}
+
+section.winkel{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 0.5em;
+    align-items: center;
+    text-align: left;
+}
+
+section.winkel p{
+    padding-left: 3em;
+}
+
+article{
     background-color: #efefef ;
-    padding-top: 4%;
+    padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     text-align: center;
-  }
+}
 
 article p a:link{
-    color:rgb(159, 134, 99);
+    color:rgb(135, 118, 93);
 }
 
 article p a:hover{
     color:black;
 }
+
 article.quote h2{
     color: white;
 }
+
 article.quote{
     background-color: black;
     color: white;
@@ -148,10 +200,10 @@ article.kop_inspiratie{
 }
 
 article.trend_inspiratie{
-background-color: #c1b5aa;
+    background-color: #c1b5aa;
 }
 
-article.vintagehome {
+article.vintagehome{
     background-color: #c1b5aa;
 }
 
@@ -159,66 +211,16 @@ article.quote-upcyclen{
     background-color: #c1b5aa;
 }
 
-div{ 
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-    padding: 10px;
-}
-
-
 .winkel img{
-    width: 320px;
-    border: 4px solid #efefef;
-}
-
-section.winkel{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-    padding: 10px;
-    margin: 20px;
-    padding: 10px;
-    align-items: center;
-    text-align: left;
-}
-
-section.winkel p{
-    padding-left: 3em;
+    width: 20em;
+    border: 0.3em solid #efefef;
 }
 
 video{
-    padding-right: 20px;
-}
-
-
-
-button{
-    font-size: 1em;
-    background-color:#c1b5aa;
-    color: #efefef;
-    border: none;
-    padding: 0.5em;
-    transition: all 450ms ease-out;
-    display: block;
-    align-items: center;
-}
-
-button:hover{
-    border: 2px solid black;
-    color: black;
-    background: transparent;
-    transform: translateY(-0.5em)
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    padding-top: 1.5em;
+    padding-right: 1.5em;
 }
 
 footer{
-
     background-color: black;
     color: white;
     padding-top: 1%;
